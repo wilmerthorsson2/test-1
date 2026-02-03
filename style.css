@@ -98,3 +98,38 @@ footer {
         margin: 0 10px;
     }
 }
+/* Styling för länk-knappar */
+.link-container {
+    display: flex;
+    flex-direction: column; /* Lägger dem under varandra */
+    gap: 15px;
+    align-items: center; /* Centrerar dem i mitten */
+    margin-top: 20px;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.button-link:hover {
+    transform: translateY(-3px); /* Liten lyfteffekt vid hovring */
+}
+
+/* Specifika färger för länkarna */
+.fk-blue {
+    background-color: #004b96;
+}
+
+.ifk-blue {
+    background-color: #005aa3;
+    border: 2px solid #ffffff; /* Ger en liten IFK-känsla */
+}
